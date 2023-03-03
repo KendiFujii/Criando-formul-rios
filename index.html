@@ -27,23 +27,80 @@
 
       <form id="my-form">
         <fieldset>
-          
-          <div class="fieldset-wrapper">
-            <legend>Informações pessoais</legend>
+          <div class="Informações-pessoais">
+            <div class="fieldset-wrapper">
+              <legend>Informações pessoais</legend>
 
-            <div class="input-wrapper">
-              <label for="event-name"> Nome </label>
-              <input type="text" 
-              id="event-name" />
+              <div class="inline">
+                <div class="input-wrapper">
+                  <label for="event-name"> Nome </label>
+                  <input type="text" id="event-name" />
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="event-sobrenome"> Sobrenome </label>
+                  <input type="text" id="event-sobrenome" />
+                </div>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="event-email">
+                  Email <span> (digite um email válido) </span>
+                </label>
+                <input type="email" id="event-email" />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="event-password">
+                  Senha <span> (mínimo de 6 caracteres) </span>
+                </label>
+                <input type="password" id="event-password" />
+              </div>
             </div>
-
-            <div class="input-wrapper">
-              <label for="event-sobrenome"> Nome </label>
-              <input type="text" 
-              id="event-sobrenome" />
-            </div>
-
           </div>
+          
+          <div class="Informações do mentor">
+            <div class="fieldset-wrapper">
+              <legend>Informações do mentor</legend>
+  
+              <div class="input-wrapper">
+                <label for="event-mentor">
+                  Nome do seu mentor <span> (só o primeiro nome) </span>
+                </label>
+                <input type="name" id="event-mentor" />
+              </div>
+            </div>
+          </div>
+
+          <div class="horários">
+            <div class="fieldset-wrapper">
+              <legend>Seus horários disponíveis</legend>
+              
+              <h1>Primeira mentoria</h1>
+
+              <div class="inline">
+                <div class="input-wrapper">
+                  <label for="event-name"> Nome </label>
+                  <input type="text" id="event-name" />
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="event-sobrenome"> Sobrenome </label>
+                  <input type="text" id="event-sobrenome" />
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="event-sobrenome"> Sobrenome </label>
+                  <input type="text" id="event-sobrenome" />
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+
+          
         </fieldset>
       </form>
     </div>
