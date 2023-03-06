@@ -80,7 +80,8 @@ fieldset {
 }
 
 #event-name,
-#event-sobrenome {
+#event-sobrenome,
+#event-date {
     width: 300px;
 }
 
@@ -153,3 +154,9 @@ fieldset legend {
     height: 56px;
     padding: 0 24px;
 }
+
+#event-inicio,
+#event-fim {
+    width: 140px;
+}
+
